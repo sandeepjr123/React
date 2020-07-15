@@ -1,0 +1,50 @@
+.displayFlex {
+    display: flex;
+}
+
+.statusView {
+    position: relative;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+
+    cursor: pointer;
+
+    :nth-child(1){
+        font-weight: 500;
+    }
+
+    :nth-child(2) {
+        padding-left: 2px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-right: 50px;
+    }
+
+    :nth-child(3) {
+        position: absolute;
+        right: 10px;
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.colorGreen{
+    color: green;
+}
+
+.futureDate {
+    color: #383d41;
+    background-color: #e2e3e5;
+    border-color: #d6d8db;
+    cursor: default;
+    height: 50px;
+}

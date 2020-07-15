@@ -1,0 +1,29 @@
+.page-header {
+    width: auto;
+    height: 50px;
+    background:rgba(0,0,0, .6);
+    box-shadow: 0px 0px 10px 3px grey;
+    margin: 10px;
+
+    h3 {
+        color: white;
+    }
+
+    div {
+        padding: 6px;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.customBtn{
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.userName{
+    color: white;
+    padding-right: 2px;;
+}
